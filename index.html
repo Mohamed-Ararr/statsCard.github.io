@@ -8,18 +8,27 @@
     <link rel="stylesheet" href="css/framework.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Stats preview card</title>
   </head>
   <body>
-    <main class="screen-bg-color screen-height">
-      <div class="box">
-        <div class="stats">
-          <h1>get <span>insights</span> that help your business grow</h1>
+    <main class="screen-bg-color screen-height d-flex-center">
+      <div class="box d-flex width-80 card-height">
+        <div class="stats width-half card-color main-border-radius-left">
+          <h1>
+            get <span class="special-word-color">insights</span> that help your
+            business grow
+          </h1>
           <p>
             discover the benifits of data analytics and make better decisions
             regarding revenue, customer experience and overall efficiency
           </p>
-          <div class="stats-details">
+          <div class="stats-details d-flex-betw-center">
             <div class="comp">
               <strong>10K+</strong>
               <p>companies</p>
@@ -34,13 +43,17 @@
             </div>
           </div>
         </div>
-        <div class="pic-holder">
+        <div class="pic-holder width-half main-border-radius-right">
           <picture>
             <source
               media="(max-width: 767px)"
               srcset="images/image-header-mobile.jpg"
             />
-            <img src="images/image-header-desktop.jpg" alt="card picture" />
+            <img
+              class="width-fullBox main-border-radius-right"
+              src="images/image-header-desktop.jpg"
+              alt="card picture"
+            />
           </picture>
         </div>
       </div>
